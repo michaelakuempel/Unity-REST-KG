@@ -79,5 +79,5 @@ private void processResponse(string responsetext)
 With the Debug.Log statements I get "Processing Website" when entering the coroutine. You get "No response from website" if there are problems with the REST statement itself (check if you make the correct call). If you don't get anything, you might have problems with your communication.
 If you are using a localhost like I do in this example, make sure that it is running.
 If everything works correctly, you should see something like this:
-[Logresponse](DebugLogresponse.png)
+[![](DebugLogresponse.png)]
 You can see that the results of the query are a simple list of EANs.
