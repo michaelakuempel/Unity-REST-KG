@@ -81,3 +81,6 @@ If you are using a localhost like I do in this example, make sure that it is run
 If everything works correctly, you should see something like this:
 [![](DebugLogresponse.png)]
 You can see that the results of the query are a simple list of EANs.
+
+
+See the file JsonExample on what to add/how to change the RESTget class if you are using a json response.
