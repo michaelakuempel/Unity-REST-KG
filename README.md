@@ -54,7 +54,7 @@ IEnumerator getData(string uri)
     }
 ```
 
-Here is the last part of this tutorial - to process the response. I put in an example of how to process a json response (please note that for a json response you also need to define the json structure in serializable classes beforehand).
+Here is the last part of this tutorial - to process the response. I put in an example of how to process a json response (please note that for a json response you also need to define the json structure in serializable classes beforehand). Here is a great website that generates c# classes from json input if you are unsure how to do this: https://json2csharp.com/
 To simplify this tutorial, I simply ask if the response contains a EAN.
 ```
 private void processResponse(string responsetext)
